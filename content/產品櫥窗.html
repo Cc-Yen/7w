@@ -1,0 +1,330 @@
+﻿<style type="text/css">
+    .flex-container {
+        display: flex;
+        align-items: center;
+        /* Use another value to see the result */
+        width: 100%;
+        height: 200px;
+        background-color: #1faadb;
+    }
+
+    .flex-container>div {
+        width: 45%;
+        height: 120px;
+        margin: 5px;
+        border-radius: 3px;
+        background-color: #8ebf42;
+    }
+
+    #box {
+        width: 400px;
+        margin: 0 auto;
+        overflow: auto;
+        border: 1px solid #0f0;
+        padding: 2px;
+        text-align: justify;
+        background: transparent;
+    }
+
+    #飄字 {
+        font-size: 18px;
+        color: rgb(255, 255, 0);
+        overflow: hidden;
+        width: 160px;
+        height: 28px;
+    }
+
+    #飄字 div {
+        height: 28px;
+        line-height: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    td {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        background-color: #75C5F0;
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        background-image: url();
+        /* height: auto; */
+        height: 1024px;
+        /* position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+
+        /* margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px; */
+    }
+
+    /* #main {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    } */
+
+    body,
+    td,
+    th {
+        color: #FFFFFF;
+    }
+
+    .d0 {
+        font-size: 10px;
+        color: #000000;
+    }
+
+    .d1 {
+        font-size: 14px;
+        color: #FF0000;
+    }
+
+    .s1 {
+        font-size: 16px;
+        color: #000000;
+    }
+
+    .s2 {
+        font-size: 14px;
+        color: #000000;
+    }
+
+    .s2w {
+        font-size: 14px;
+    }
+
+    .s2r {
+        font-size: 14px;
+        color: #FF0000;
+    }
+
+    .s2y {
+        font-size: 14px;
+        color: #FFFF00;
+    }
+
+    a:link {
+        color: #000000;
+    }
+
+    a:visited {
+        color: #666666;
+    }
+
+    a:hover {
+        color: #FFFF00;
+    }
+
+    a:active {
+        color: #FF0000;
+    }
+</style>
+
+<!-- width="777" height="90" align="center" cellpadding="0" -->
+<table id="產品櫥窗" style='margin:0 auto;width:777px;height:90px;'>
+    <tr>
+        <th height="11" colspan="6" align="center" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg"></th>
+    </tr>
+
+
+    <tr>
+        <th width="2" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg">&nbsp;
+        </th>
+        <th height="24" colspan="4" align="left" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg" class="s1">產品櫥窗
+        </th>
+        <th width="8" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg">&nbsp;
+        </th>
+    </tr>
+    <tr background="http://7.share.photo.xuite.net/newyan/1764f70/19745899/1111626501_x.jpg">
+        <td rowspan="2">&nbsp;</td>
+        <th width="68" rowspan="2" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f70/19745899/1111626501_x.jpg"> </th>
+        <td width="2" rowspan="2">&nbsp;</td>
+        <th height="31" nowrap="nowrap" bgcolor="#000000" class="s2y style1"><span class="s1">New ! TriPiStar !
+                <a href="http://www.youtube.com/profile?user=triPiStar#g/u" target="_blank">遊戲影片連結</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                看如何『橫抽直放』<a href="https://www.youtube.com/watch?v=34dFxVu_qkI&feature=youtu.be&t=4"
+                    target="_blank">遊戲影片連結</a> </span></th>
+        <td rowspan="2">&nbsp; </td>
+        <td rowspan="2">&nbsp;</td>
+    </tr>
+    <tr background="http://7.share.photo.xuite.net/newyan/1764f70/19745899/1111626501_x.jpg">
+        <th width="625" height="210" bgcolor="#FFFFFF">
+
+            <!-- <marquee onMouseOver="this.stop()" onMouseOut="this.start()"></marquee> -->
+            <!-- <div class="marquee">
+                    <div class="track">
+                      <div class="content"> -->
+
+            <div id="d" style="overflow:hidden;height:210px;width:600px;">
+                <div id="d1">
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/34dFxVu_qkI"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/co59ueeWYgc"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/JGKpAR0jHbY"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/9UxNYIbGPfo"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/9UxNYIbGPfo"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+                    <embed allowscriptaccess="never" src="http://www.youtube.com/v/k1RBWUqRw7c"
+                        type="application/x-shockwave-flash" allowfullscreen="true" width="280" height="210"></embed>
+
+                </div>
+                <div id="d2">
+                </div>
+            </div>
+            <!-- </div>
+                      </div>
+                  </div>    -->
+            <!-- </marquee> -->
+        </th>
+
+    </tr>
+    <tr>
+        <th height="19" colspan="6" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg" class="s1">
+            預定2016年即將在
+            <新娛樂導引器>上演</a>
+        </th>
+    </tr>
+    <tr>
+        <th height="19" colspan="6" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg">&nbsp;</th>
+    </tr>
+    <tr>
+        <th height="19" colspan="6" nowrap="nowrap"
+            background="http://7.share.photo.xuite.net/newyan/1764f9e/19745899/1111628083_x.jpg" class="s1">&nbsp;
+
+        </th>
+    </tr>
+
+</table>
+
+
+<!-- </div> <script language="javascript">
+        function autoResizeDiv() {
+            document.getElementById('main').style.height = window.innerHeight + 'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script> -->
+
+
+<!-- 
+    搜尋元件一定要在所有 html 宣告之後，不然找不到      
+    如果猴急 用 window.onload()不過不建議使用，太多會影響用戶體驗
+-->
+
+<script>
+    // 自动滚动
+    function boxmove(d1, d2, d3, e, obj) {
+        var speed = 30;
+        var demo = document.getElementById(d1);
+        var demo1 = document.getElementById(d2);
+        var demo2 = document.getElementById(d3);
+        demo2.innerHTML = demo1.innerHTML;
+        function boxTop() {
+            if (demo2.offsetTop - demo.scrollTop <= 0) { demo.scrollTop -= demo1.offsetHeight }
+            else { demo.scrollTop++ }
+        }
+        function boxRight() {
+            if (demo.scrollLeft <= 0) { demo.scrollLeft += demo2.offsetWidth }
+            else { demo.scrollLeft-- }
+        }
+        function boxBottom() {
+            if (demo1.offsetTop - demo.scrollTop >= 0) { demo.scrollTop += demo2.offsetHeight }
+            else { demo.scrollTop-- }
+        }
+        function boxLeft() {
+            if (demo2.offsetWidth - demo.scrollLeft <= 0) { demo.scrollLeft -= demo1.offsetWidth }
+            else { demo.scrollLeft++ }
+        }
+        if (e == 1) {
+            var MoveTop = setInterval(boxTop, speed);
+            demo.οnmοuseοver = function () { clearInterval(MoveTop); }
+            demo.onmouseout = function () { MoveTop = setInterval(boxTop, speed) }
+        }
+        if (e == 2) {
+            var MoveRight = setInterval(boxRight, speed);
+            demo.onmouseover = function () { clearInterval(MoveRight) }
+            demo.onmouseout = function () { MoveRight = setInterval(boxRight, speed) }
+        }
+        if (e == 3) {
+            var MoveBottom = setInterval(boxBottom, speed);
+            demo.οnmοuseοver = function () { clearInterval(MoveBottom); }
+            demo.onmouseout = function () { MoveBottom = setInterval(boxBottom, speed) }
+        }
+        if (e == 4) {
+            var MoveLeft = setInterval(boxLeft, speed)
+            demo.οnmοuseοver = function () { clearInterval(MoveLeft) }
+            demo.onmouseout = function () { MoveLeft = setInterval(boxLeft, speed) }
+        }
+        if (e == "top") {
+            MoveTop = setInterval(boxTop, speed)
+            obj.onmouseout = function () { clearInterval(MoveTop); }
+        }
+        if (e == "right") {
+            MoveRight = setInterval(boxRight, speed)
+            obj.onmouseout = function () { clearInterval(MoveRight); }
+        }
+        if (e == "bottom") {
+            MoveBottom = setInterval(boxBottom, speed)
+            obj.onmouseout = function () { clearInterval(MoveBottom); }
+        }
+        if (e == "left") {
+            MoveLeft = setInterval(boxLeft, speed)
+            obj.onmouseout = function () { clearInterval(MoveLeft); }
+        }
+    }
+
+    // boxmove("歷史","歷史1","歷史2",1);
+    boxmove("d", "d1", "d2", 4);
+    //boxmove("影展","影展內容1","影展內容2",4);
+    document.getElementById("t沿革事紀").scrollTop = 0;// document.getElementById("t沿革事紀").scrollHeight/2;
+    //   alert(">"+document.getElementById("t沿革事紀").scrollTop +"  ->>"+document.getElementById("t沿革事紀").scrollHeight);
+    //   alert("幹你娘");
+
+    var demo = document.getElementById("t沿革事紀");
+    var 區間 = 49;
+    // alert("幹你娘>>"+demo.offsetTop+" <<"+demo.scrollTop+" >>"+demo.scrollHeight);
+    function boxTop() {
+
+        // if(demo.offsetTop-demo.scrollTop<=0){demo.scrollTop-=demo.offsetHeight;}
+        // else{demo.scrollTop++;}
+        demo.scrollTop++;
+
+        if (demo.scrollTop + demo.offsetHeight >= demo.scrollHeight)
+            demo.scrollTop = 0;
+
+        //alert("幹你娘>>"+ +" <<"+demo.scrollTop+" >>"+demo.scrollHeight);
+    }
+
+    var MoveTop = setInterval(boxTop, 區間);
+
+    demo.οnmοuseοver = function () { clearInterval(MoveTop); }
+
+
+    demo.onmouseout = function () { MoveTop = setInterval(boxTop, 區間); }
+
+
+</script>
