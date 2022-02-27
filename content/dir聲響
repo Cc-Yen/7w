@@ -1,5 +1,1 @@
-<!-- _改多元素同一背景色(["選中標示", "副分類"],"aqua");  onclick='loadDoc("品項展示","/content/musicsong"); '-->
-<div id="叫唱歌曲" class="目錄文" style=" color:aqua; ">叫唱歌曲</div>
-
-<!-- _改多元素同一背景色(["選中標示", "副分類"],"brown"); onclick='loadDoc("品項展示","/content/musicmelody");'-->
-<div id="旋律樂句" class="目錄文" style="color:brown">旋律樂句</div>
+<div class="目錄文" id="叫唱歌曲" style="color:#0ff">叫唱歌曲</div><div class="目錄文" id="旋律樂句" style="color:brown">旋律樂句</div>
